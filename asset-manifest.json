@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.768bd6d2.css",
+    "main.js": "/static/js/main.16fc2866.js",
+    "static/js/787.f853dc3d.chunk.js": "/static/js/787.f853dc3d.chunk.js",
+    "static/media/hero-cocktail.jpg": "/static/media/hero-cocktail.60bdbd4144d5be2ab96f.jpg",
+    "static/media/very-berry.jpg": "/static/media/very-berry.058faeaa1041a2d7aeab.jpg",
+    "static/media/meadowfix.jpg": "/static/media/meadowfix.b147e252d0c135872a19.jpg",
+    "static/media/summer-serum.jpg": "/static/media/summer-serum.141b7cb0a51cfed28dd0.jpg",
+    "static/media/DMSerifDisplay-Regular.ttf": "/static/media/DMSerifDisplay-Regular.ca478f5117e07586dd07.ttf",
+    "static/media/cocktail-logo-small.png": "/static/media/cocktail-logo-small.75a8f77973030cf33cf0.png",
+    "static/media/cookie.png": "/static/media/cookie.8aa17b2494852306b55d.png",
+    "index.html": "/index.html",
+    "main.768bd6d2.css.map": "/static/css/main.768bd6d2.css.map",
+    "main.16fc2866.js.map": "/static/js/main.16fc2866.js.map",
+    "787.f853dc3d.chunk.js.map": "/static/js/787.f853dc3d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.768bd6d2.css",
+    "static/js/main.16fc2866.js"
+  ]
+}
