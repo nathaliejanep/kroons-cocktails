@@ -1,0 +1,105 @@
+@import './mixins';
+@import './variables';
+
+// HEADINGS 1-6
+h1 {
+  margin: 0;
+  @include toRem(font-size, 96);
+  font-weight: 400;
+  color: $white;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+
+  @include tablet {
+    @include toRem(font-size, 48);
+  }
+
+  @include phone {
+    @include toRem(font-size, 40);
+  }
+}
+
+h2 {
+  @include toRem(font-size, 48);
+  font-weight: 400;
+  color: $black;
+  border-bottom: 3px solid $darkGreen;
+
+  @include tablet {
+    @include toRem(font-size, 32);
+  }
+
+  @include phone {
+    @include toRem(font-size, 24);
+  }
+}
+
+h3 {
+  @include toRem(font-size, 40);
+}
+
+h4 {
+  @include toRem(font-size, 32);
+  font-weight: normal;
+  color: $black;
+  margin: 0;
+  margin-bottom: 5px;
+
+  @include tablet {
+    @include toRem(font-size, 20);
+  }
+
+  @include phone {
+    @include toRem(font-size, 20);
+  }
+}
+
+h5 {
+  @include toRem(font-size, 24);
+  font-weight: normal;
+  text-transform: uppercase;
+  color: $darkGreen;
+  margin: 0;
+
+  @include phone {
+    @include toRem(font-size, 18);
+  }
+}
+
+h6 {
+  @include toRem(font-size, 20);
+}
+
+// PARAGRAPHS
+p {
+  @include toRem(font-size, 28);
+  font-style: italic;
+  color: $darkGreen;
+  margin: 0;
+
+  @include tablet {
+    @include toRem(font-size, 20);
+  }
+
+  @include phone {
+    @include toRem(font-size, 16);
+  }
+}
+
+// LINKS
+a {
+  @include toRem(font-size, 24);
+  color: inherit;
+  text-decoration: none;
+
+  &:visited {
+    color: $black;
+  }
+
+  &:hover {
+    border-bottom: 2px solid $darkGreen;
+  }
+
+  &:active {
+    color: $darkGreen;
+  }
+}

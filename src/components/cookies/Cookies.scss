@@ -1,0 +1,52 @@
+@import '../../sassStyles/variables';
+@import '../../sassStyles/mixins';
+
+.Cookies {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  padding: 1rem;
+  background-color: $darkGreen;
+
+  img {
+    width: 25px;
+    height: 25px;
+  }
+
+  p {
+    @include toRem(font-size, 20);
+    margin-left: 1rem;
+    color: $lightBeige;
+
+    @include tablet {
+      @include toRem(font-size, 18);
+    }
+
+    @include phone {
+      @include toRem(font-size, 16);
+    }
+  }
+
+  &__buttons {
+    margin-left: auto;
+
+    display: flex;
+
+    @include phone {
+      display: block;
+    }
+
+    .deny {
+      background-color: $lightGreen;
+      color: $white;
+
+      &:hover {
+        background-color: $darkGreen;
+        color: $lightBeige;
+      }
+    }
+  }
+}
